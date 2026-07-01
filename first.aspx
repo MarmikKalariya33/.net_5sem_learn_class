@@ -11,13 +11,13 @@
         <div>
         </div>
         
-        <asp:Label ID="Label1" runat="server" Text="Email"></asp:Label>
-        <asp:TextBox ID="txtmai" runat="server"></asp:TextBox>
+        <asp:Label ID="Label1" runat="server" Text="Email" BorderStyle="None" ForeColor="Black"></asp:Label>
+        <asp:TextBox ID="txtmai" runat="server" BorderStyle="Dotted"></asp:TextBox><br />
         <br />
         <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
-        <asp:TextBox ID="password" runat="server"></asp:TextBox>
+        <asp:TextBox ID="password" runat="server" BorderStyle="Dotted"></asp:TextBox><br />
         <br />
-
+        <asp:Label ID="Label3" runat="server" ForeColor="#000099"></asp:Label>
 
         <asp:Button ID="Submit" runat="server" Text="Addition" ForeColor="#0033CC" OnClick="Submit_Click" BackColor="Lime" /> 
         <asp:Button ID="sub" runat="server" Text="Subtraction" ForeColor="#0033CC" OnClick="sub_Click" BackColor="Lime" />

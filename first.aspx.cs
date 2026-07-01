@@ -21,13 +21,6 @@ namespace _5sem_learn
             int b = int.Parse(password.Text);
             Label3.Visible = true;
             Label3.Text = "sum = " + (a + b);
-
-
-            //String email = txtmai.Text;
-            //Response.Write("Welcome " + email + "<br>");
-
-            //String pass = password.Text;
-            //Response.Write("Password :" + pass + "<br>");
         }
         protected void sub_Click(object sender, EventArgs e)
         {
