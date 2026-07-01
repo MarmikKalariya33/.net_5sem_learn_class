@@ -17,7 +17,8 @@
         <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
         <asp:TextBox ID="password" runat="server"></asp:TextBox>
         <br />
-        <asp:Label ID="Label3" runat="server" Text=""></asp:Label>
+
+
         <asp:Button ID="Submit" runat="server" Text="Addition" ForeColor="#0033CC" OnClick="Submit_Click" BackColor="Lime" /> 
         <asp:Button ID="sub" runat="server" Text="Subtraction" ForeColor="#0033CC" OnClick="sub_Click" BackColor="Lime" />
         <asp:Button ID="mul" runat="server" Text="Multiplication" ForeColor="#0033CC" OnClick="mul_Click" BackColor="Lime" />

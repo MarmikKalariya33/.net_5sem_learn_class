@@ -17,6 +17,7 @@ namespace _5sem_learn
         protected void Submit_Click(object sender, EventArgs e)
         {
             int a = int.Parse(txtmai.Text);
+
             int b = int.Parse(password.Text);
             Label3.Visible = true;
             Label3.Text = "sum = " + (a + b);
