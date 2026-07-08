@@ -11,7 +11,7 @@ namespace _5sem_learn
 {
 
 
-    public partial class Standerd_Control_Demo
+    public partial class Registration
     {
 
         /// <summary>
@@ -24,24 +24,6 @@ namespace _5sem_learn
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
-
-        /// <summary>
-        /// Calendar1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar Calendar1;
-
-        /// <summary>
         /// Label1 control.
         /// </summary>
         /// <remarks>
@@ -49,6 +31,24 @@ namespace _5sem_learn
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
+        /// Nametxt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Nametxt;
+
+        /// <summary>
+        /// RequiredFieldValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
         /// Label2 control.
@@ -60,76 +60,76 @@ namespace _5sem_learn
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// RadioButton1 control.
+        /// Passwordtxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton1;
+        protected global::System.Web.UI.WebControls.TextBox Passwordtxt;
 
         /// <summary>
-        /// RadioButton2 control.
+        /// RequiredFieldValidator2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RadioButton2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
 
         /// <summary>
-        /// Submit control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Submit;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// CheckBox1 control.
+        /// CPasswordtxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
+        protected global::System.Web.UI.WebControls.TextBox CPasswordtxt;
 
         /// <summary>
-        /// CheckBox2 control.
+        /// CompareValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox2;
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
 
         /// <summary>
-        /// CheckBox3 control.
+        /// Label5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox3;
+        protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// Submit2 control.
+        /// Emailtxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Submit2;
+        protected global::System.Web.UI.WebControls.TextBox Emailtxt;
 
         /// <summary>
-        /// Label4 control.
+        /// RegularExpressionValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
 
         /// <summary>
         /// Label6 control.
@@ -141,13 +141,22 @@ namespace _5sem_learn
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// ListBox1 control.
+        /// Mobiletxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox1;
+        protected global::System.Web.UI.WebControls.TextBox Mobiletxt;
+
+        /// <summary>
+        /// RegularExpressionValidator2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator2;
 
         /// <summary>
         /// Button1 control.
@@ -157,14 +166,5 @@ namespace _5sem_learn
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// Label7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
     }
 }

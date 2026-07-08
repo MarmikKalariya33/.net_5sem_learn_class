@@ -14,6 +14,7 @@ namespace _5sem_learn
             Label1.Visible = false;
             Label2.Visible = false;
             Label4.Visible = false;
+            Label7.Visible = false;
         }
 
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
@@ -44,23 +45,42 @@ namespace _5sem_learn
         {
             Label4.Visible = true;   // Show the result label
             int Total = 0;
+            string selectedItems = "";
 
             if (CheckBox1.Checked)
             {
                 Total += 1000;
+                selectedItems += "ASP.NET";
             }
 
             if (CheckBox2.Checked)
             {
                 Total += 2000;
+                selectedItems += "PHP";
             }
 
             if (CheckBox3.Checked)
             {
                 Total += 3000;
+                selectedItems += "java";
             }
 
             Label4.Text = "Total Amount: ₹" + Total;
+            Label6.Text = "Selected Items: " + selectedItems;
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Label7.Visible = true;
+            if (ListBox1.SelectedIndex != -1)
+            {
+                Label7.Text = "Selected City: " + ListBox1.SelectedItem.Text;
+            }
+            else
+            {
+                Label7.Text = "Please select a city.";
+            }
         }
     }
 }

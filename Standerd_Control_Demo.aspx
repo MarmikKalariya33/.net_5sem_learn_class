@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
             <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="White" BorderWidth="1px" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="190px" NextPrevFormat="FullMonth" OnSelectionChanged="Calendar1_SelectionChanged" Width="350px">
                 <DayHeaderStyle Font-Bold="True" Font-Size="8pt" />
                 <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" VerticalAlign="Bottom" />
@@ -48,7 +49,19 @@
         <p>
             <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
         <p>
-            <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
+            <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+        <p>
+            &nbsp;<asp:ListBox ID="ListBox1" runat="server">
+            <asp:ListItem>Rajkot</asp:ListItem>
+            <asp:ListItem>Upleta</asp:ListItem>
+            <asp:ListItem>Surat</asp:ListItem>
+        </asp:ListBox>
+        <p>
+            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+        </p>
+        <p>
+            <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+        </p>
     </form>
 </body>
 </html>
