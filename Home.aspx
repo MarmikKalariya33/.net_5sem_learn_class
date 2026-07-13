@@ -7,7 +7,7 @@
     <!DOCTYPE html>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="bg-secondary-subtle">
+<body>
 
 <div class="container">
     <div class="row justify-content-center align-items-center vh-100">
@@ -42,18 +42,30 @@
 
                         <div class="card-body p-5">
 
-                            <h3 class="text-center mb-4">Sign In</h3>
+                   Sign In</h3>
 
                             <form>
 
                                 <div class="mb-3">
-                                    <label class="form-label">Email Address</label>
-                                    <input type="email" class="form-control" placeholder="name@example.com">
+                                    <label class="form-label">Email Address<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Email is Require" ForeColor="Red" ControlToValidate="txtEmail"></asp:RequiredFieldValidator>
+                                    </label>
+                                    <asp:TextBox ID="txtEmail" runat="server"
+                                    CssClass="form-control"
+                                     TextMode="Email"
+                                    placeholder="name@example.com">
+                                    </asp:TextBox>
                                 </div>
 
                                 <div class="mb-3">
-                                    <label class="form-label">Password</label>
-                                    <input type="password" class="form-control" placeholder="••••••••">
+                                    <label class="form-label">Password<asp:RequiredFieldValidator ID="Password" runat="server" ErrorMessage="Password Is Require" ForeColor="Red" ControlToValidate="txtPassword"></asp:RequiredFieldValidator>
+                                    </label>
+                                   <asp:TextBox
+                                       ID="txtPassword"
+                                       runat="server"
+                                       CssClass="form-control"
+                                       TextMode="Password"
+                                       placeholder="••••••••">
+                                       </asp:TextBox>
                                 </div>
 
                                 <div class="d-flex justify-content-between mb-4">
@@ -66,6 +78,7 @@
 
                                     <a href="#" class="text-decoration-none">
                                         Forgot Password?
+                                    
                                     </a>
                                 </div>
 
@@ -81,18 +94,12 @@
                                     Don't have an account?
                                     <a href="Regis.aspx" class="text-decoration-none">Sign Up</a>
                                 </p>
-
                             </form>
-
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
         </div>
-
     </div>
 </div>
 
@@ -100,7 +107,7 @@
 </body>
 </html>
 
-
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="footer" runat="server">
 </asp:Content>
+
