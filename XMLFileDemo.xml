@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+
+	<Ad>
+		<ImageUrl>image/apps.705.14135041483387905.15690a85-df4d-4ece-aeda-d4afd6caa090.png</ImageUrl>
+		<NavigateUrl>https://www.google.com/</NavigateUrl>
+		<AlternateText>Wallpaper 1</AlternateText>
+		<Impression>50</Impression>
+		<Keyword>Image</Keyword>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>image/HD-wallpaper-murlidhar-ahir-dc-dwarikadhis-kanha-krishna-yadav.jpg</ImageUrl>
+		<NavigateUrl>https://www.google.com/</NavigateUrl>
+		<AlternateText>Wallpaper 2</AlternateText>
+		<Impression>50</Impression>
+		<Keyword>Image</Keyword>
+	</Ad>
+
+</Advertisements>

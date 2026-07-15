@@ -231,13 +231,9 @@
                             Already have an account?
                             <a href="Home.aspx">Login</a>
                         </p>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
 </div>
 

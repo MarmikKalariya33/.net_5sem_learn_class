@@ -70,10 +70,13 @@
     <Content Include="first.aspx" />
     <Content Include="first1.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="image\apps.705.14135041483387905.15690a85-df4d-4ece-aeda-d4afd6caa090.png" />
+    <Content Include="image\HD-wallpaper-murlidhar-ahir-dc-dwarikadhis-kanha-krishna-yadav.jpg" />
     <Content Include="Regis.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Standerd_Control_Demo.aspx" />
     <Content Include="Web.config" />
+    <Content Include="XMLFileDemo.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="first.aspx.cs">
