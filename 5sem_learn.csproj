@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fileupload.aspx" />
     <Content Include="first.aspx" />
     <Content Include="first1.aspx" />
     <Content Include="Home.aspx" />
@@ -79,6 +80,13 @@
     <Content Include="XMLFileDemo.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fileupload.aspx.cs">
+      <DependentUpon>fileupload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fileupload.aspx.designer.cs">
+      <DependentUpon>fileupload.aspx</DependentUpon>
+    </Compile>
     <Compile Include="first.aspx.cs">
       <DependentUpon>first.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
