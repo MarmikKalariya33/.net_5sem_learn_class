@@ -36,11 +36,12 @@
             <asp:Label ID="Label6" runat="server" Text="Mobile no "></asp:Label>
 &nbsp;&nbsp;
             <asp:TextBox ID="Mobiletxt" runat="server"></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="Mobiletxt" ErrorMessage="Enter10 Digit"></asp:RegularExpressionValidator>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="Mobiletxt" ErrorMessage="fill the number " ForeColor="Red"></asp:RequiredFieldValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="Mobiletxt" ErrorMessage="envalid number " ForeColor="Red" ValidationExpression="\d{10}"></asp:RegularExpressionValidator>
         </p>
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button1" runat="server" Text="Submit" />
+            <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
             &nbsp;</p>
     </form>
 </body>

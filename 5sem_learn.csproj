@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="fileupload.aspx" />
     <Content Include="first.aspx" />
     <Content Include="first1.aspx" />
@@ -75,6 +79,7 @@
     <Content Include="image\HD-wallpaper-murlidhar-ahir-dc-dwarikadhis-kanha-krishna-yadav.jpg" />
     <Content Include="Regis.aspx" />
     <Content Include="Registration.aspx" />
+    <Content Include="registrationform.aspx" />
     <Content Include="Standerd_Control_Demo.aspx" />
     <Content Include="Web.config" />
     <Content Include="XMLFileDemo.xml" />
@@ -122,6 +127,13 @@
     </Compile>
     <Compile Include="Registration.aspx.designer.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registrationform.aspx.cs">
+      <DependentUpon>registrationform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registrationform.aspx.designer.cs">
+      <DependentUpon>registrationform.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
